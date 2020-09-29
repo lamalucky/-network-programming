@@ -1,0 +1,94 @@
+/*вторая лаба*/
+
+body{
+  background: #AFEEEE;
+}
+
+.header li, a{
+  color: #FF6347;
+  font-family: cursive;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.description{
+  color: #006400;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 16px;
+}
+
+.detail{
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.list{
+  color: #2E8B57;
+  font-size: 14px;
+  font-weight: 600;
+  list-style-image: url("img/list.png");
+}
+
+input, textarea{
+  color: #800080;
+  font-size: 14px;
+  font-weight: lighter;
+  height: 20px;
+  width: 200px;
+}
+
+textarea{
+  height: 60px;
+}
+
+.photo {
+  border: 3px solid #9ACD32;
+}
+
+/*третья лаба*/
+
+.header a:hover{
+  color: #8b00ff;
+}
+
+.email:focus{
+  background-color: #fffdd0;
+  color: #ff801c;
+}
+
+input, textarea {
+  text-transform: capitalize;
+}
+
+.email{
+  text-transform: none;
+}
+
+.photo:hover {
+  border: 3px solid #AFEEEE;
+}
+
+.first_letter p::first-letter{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
+}
