@@ -1,8 +1,10 @@
+/*вторая лаба*/
+
 body{
   background: #AFEEEE;
 }
 
-.menu li, a{
+.header li, a{
   color: #FF6347;
   font-family: cursive;
   list-style-type: none;
@@ -48,6 +50,45 @@ input, textarea{
   width: 200px;
 }
 
+textarea{
+  height: 60px;
+}
+
 .photo {
   border: 3px solid #9ACD32;
+}
+
+/*третья лаба*/
+
+.header a:hover{
+  color: #8b00ff;
+}
+
+.email:focus{
+  background-color: #fffdd0;
+  color: #ff801c;
+}
+
+input, textarea {
+  text-transform: capitalize;
+}
+
+.email{
+  text-transform: none;
+}
+
+.photo:hover {
+  border: 3px solid #AFEEEE;
+}
+
+.first_letter p::first-letter{
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+table{
+  border-collapse: collapse;
+}
+td{
+  border: 1px solid black;
 }
