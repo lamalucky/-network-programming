@@ -1,0 +1,16 @@
+body{
+  background: #AFEEEE;
+}
+
+nav.navbar .dropdown:hover > .dropdown-menu {
+ display: block;
+}
+
+.carousel {
+  height: 150px !important;
+}
+
+.carousel-inner img {
+  height: 150px !important;
+  margin: 0 auto;
+}
